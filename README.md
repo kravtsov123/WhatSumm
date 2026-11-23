@@ -15,9 +15,13 @@ WhatSumm היא אפליקציה חינמית לאנדרואיד שמסכמת א
 
 ### התקנה
 
-1. בטלפון, פתח את [דף ההורדה](https://github.com/kravtsov123/WhatSumm/releases/latest) והקש על הקובץ שמסתיים ב־**apk.** (תחת Assets).
-2. פתח את הקובץ שהורד. אם מופיע ״הטלפון לא מורשה להתקין אפליקציות לא ידועות ממקור זה״: הקש **הגדרות** ← הפעל **התר ממקור זה** ← חזור.
-3. הקש **התקנה**. אם Google Play Protect מזהיר שהאפליקציה לא מוכרת: הקש **פרטים נוספים** ← **התקן בכל זאת**. האזהרה מופיעה כי האפליקציה לא מגיעה מחנות Play.
+1. בטלפון, פתח את [דף ההורדה](https://github.com/kravtsov123/WhatSumm/releases/latest) **בכרום** (אם קיבלת את הקישור בוואטסאפ: לחיצה ארוכה ← פתיחה בכרום) והקש על הקובץ שמסתיים ב־**apk.** (תחת Assets).
+2. **כבה זמנית את Play Protect** — אחרת ההתקנה נחסמת, לרוב עם ההודעה ״האפליקציה לא הותקנה״ בלי הסבר: פתח את **חנות Play** ← תמונת הפרופיל ← **Play Protect** ← ⚙️ ← כבה את **סריקת אפליקציות באמצעות Play Protect**.
+   Google חוסמת אפליקציות מחוץ לחנות שמבקשות גישה להתראות, כי אפליקציות הונאה משתמשות בגישה הזו. WhatSumm צריכה אותה כדי לקרוא את הודעות הוואטסאפ.
+   **בסמסונג:** כבה גם **הגדרות ← אבטחה ופרטיות ← חוסם אוטומטי (Auto Blocker)**.
+3. פתח את הקובץ שהורד (או מ**קבצים ← הורדות**). אם מופיע ״הטלפון לא מורשה להתקין אפליקציות לא ידועות ממקור זה״: הקש **הגדרות** ← הפעל **התר ממקור זה** ← חזור.
+4. הקש **התקנה**.
+5. **הפעל שוב את Play Protect** (ואת החוסם האוטומטי בסמסונג). עדכונים של WhatSumm אמורים להיות מותקנים גם כשהוא פועל. אם עדכון נחסם, חזור על שלבים 2 ו־5.
 
 ### הגדרה ראשונה
 
@@ -62,9 +66,13 @@ WhatSumm is a free Android app that summarizes your WhatsApp chats: a daily or w
 
 ### Install
 
-1. On the phone, open the [download page](https://github.com/kravtsov123/WhatSumm/releases/latest) and tap the file ending in **.apk** (under Assets).
-2. Open the downloaded file. If it says your phone isn't allowed to install unknown apps from this source: tap **Settings** → turn on **Allow from this source** → go back.
-3. Tap **Install**. If Google Play Protect warns that the app is unknown: tap **More details** → **Install anyway**. The warning appears because the app doesn't come from the Play Store.
+1. On the phone, open the [download page](https://github.com/kravtsov123/WhatSumm/releases/latest) **in Chrome** (if you got the link in WhatsApp: long-press it → open in Chrome) and tap the file ending in **.apk** (under Assets).
+2. **Turn Play Protect off for a moment.** Otherwise the install is blocked, often with just "App not installed": open the **Play Store** → your profile picture → **Play Protect** → ⚙️ → turn off **Scan apps with Play Protect**.
+   Google blocks apps from outside the Play Store that ask for notification access, because scam apps misuse it. WhatSumm needs it to read your WhatsApp messages.
+   **Samsung:** also turn off **Settings → Security and privacy → Auto Blocker**.
+3. Open the downloaded file (or find it in **Files → Downloads**). If it says your phone isn't allowed to install unknown apps from this source: tap **Settings** → turn on **Allow from this source** → go back.
+4. Tap **Install**.
+5. **Turn Play Protect back on** (and Auto Blocker on Samsung). WhatSumm updates should install with it on. If an update is blocked, repeat steps 2 and 5.
 
 ### First setup
 
